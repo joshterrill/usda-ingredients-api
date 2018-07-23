@@ -1,0 +1,36 @@
+{
+  "name": "usda-ingredients-api",
+  "version": "1.0.0",
+  "description": "a private REST API used for pulling ingredients given a UPC code from ndb.nal.usda.gov",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshterrill/usda-ingredients-api.git"
+  },
+  "keywords": [
+    "USDA",
+    "ingredients",
+    "API",
+    "ingredients",
+    "lookup",
+    "UPC",
+    "UPC",
+    "search"
+  ],
+  "author": "Josh Terrill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshterrill/usda-ingredients-api/issues"
+  },
+  "homepage": "https://github.com/joshterrill/usda-ingredients-api#readme"
+}
