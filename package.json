@@ -2,7 +2,7 @@
   "name": "usda-ingredients-api",
   "version": "1.0.0",
   "description": "a private REST API used for pulling ingredients given a UPC code from ndb.nal.usda.gov",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
